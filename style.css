@@ -1,0 +1,86 @@
+body {
+    margin: 50px;
+    font-family: Poppins;
+    background-color: #202020;
+    color: white;
+}
+
+#h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+#p {
+    text-align: center;
+    color: lightgrey;
+}
+
+
+.grid {
+    display: grid;
+    justify-content: center;
+}
+
+footer {
+    color: gray;
+    font-size: small;
+    padding-top: 100px;
+    text-align: center;
+}
+
+#result {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+#flip-coin {
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+#flip-coin:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+
+#result {
+    text-align: center;
+    font-weight: 700;
+    color: #e1b530;
+}
+
+#flip-again {
+    margin: 50px 45px 0px 45px;
+    text-align: center;
+    color: lightgrey;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    color: grey;
+}
+
+@media screen and (max-width: 500px) {
+
+    #coin {
+        max-width: 450px;
+    }
+
+    #flip-coin {
+        width: 100%;
+    }
+
+    #flip-again {
+        font-size: small;
+    }
+
+    footer {
+        padding-top: 40px;
+    }
+}
