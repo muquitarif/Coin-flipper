@@ -50,11 +50,24 @@ footer {
 }
 
 #flip-again {
-    margin: 50px 45px 0px 45px;
+    margin-top: 20px;
     text-align: center;
-    color: lightgrey;
-    padding: 10px;
-    border-radius: 50px;
+}
+
+#flip-again-btn {
+    text-align: center;
+    background-color: transparent;
+    color: white;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    padding: 10px 50px;
+    font-family: Poppins;
+}
+
+#flip-again-btn:hover {
+    background-color: #e1b530;
+    color: rgb(56, 56, 56);
+    border: none;
 }
 
 a {
