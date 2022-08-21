@@ -19,8 +19,6 @@ coin.addEventListener("click", function () {
     }
 
     document.getElementById("result").innerHTML = `It's ${result}.`
-    flip.innerHTML = `Want to Flip Again?`
+    flip.innerHTML = `<button id="flip-again-btn">Want to Flip Again?</button>`
     flip.addEventListener("click", flipAgain);
-    flip.style.border = "1px solid lightgrey";
-
 });
