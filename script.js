@@ -1,6 +1,6 @@
 let coin = document.getElementById("flip-coin");
 let flip = document.getElementById("flip-again");
-let toss = Math.floor(Math.random() * 2);
+
 let tossResult = document.getElementById("result");
 
 function flipAgain() {
@@ -10,6 +10,7 @@ function flipAgain() {
 }
 
 coin.addEventListener("click", function () {
+    let toss = Math.floor(Math.random() * 2);
     let result;
 
     if (toss == 1) {
