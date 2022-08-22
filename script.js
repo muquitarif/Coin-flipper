@@ -1,12 +1,9 @@
 let coin = document.getElementById("flip-coin");
 let flip = document.getElementById("flip-again");
 let toss = Math.floor(Math.random() * 2);
-let tossResult = document.getElementById("result");
 
 function flipAgain() {
-    coin.src = "./images/Flip_coin.png"
-    tossResult.innerHTML = "";
-    document.getElementById('flip-again-btn').style.display = "none";
+    location.reload();
 }
 
 coin.addEventListener("click", function () {
