@@ -13,7 +13,6 @@ coin.addEventListener("click", function () {
     if (toss == 1) {
         result = "Tails";
         coin.src = "images/Tails.png"
-        console.log(toss);
     } else {
         coin.src = "images/Heads.png"
         result = "Heads";
